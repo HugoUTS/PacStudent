@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Quit : MonoBehaviour
 {
-
-    // Update is called once per frame
+    [SerializeField] private string title = "StartScene";
     public void Title()
     {
-        SceneManager.LoadScene("StartScene");
-        Application.Quit();
-        Debug.Log("MENU");
+        Debug.Log("Quit Button is working");
+        SceneManager.LoadScene(title);
     }
 }
