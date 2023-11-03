@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Pacman Game");
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
     public void QuitGame()
     {
         Debug.Log("QUIT");
