@@ -4,6 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Movement))]
 
+// All the movement works the the debug statements all come out in console but idk why pacman won't move
 public class Pacman : MonoBehaviour
 {
     public Movement movement { get; private set; }
